@@ -1,3 +1,5 @@
+// Author  mounicraju@gmail.com //
+
 using .Read() in a while loop instead of .ReadToEnd()
 Debug and check the count of lines[] to verify this.
 
