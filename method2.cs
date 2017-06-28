@@ -25,7 +25,7 @@ public void getRobots()
 
     robotLines = robotText.Split(Environment.NewLine);
 
-    robotStringBuilder = New StringBuilder();
+    robotStringBuilder = New StringBuilder();  // defining new String Builder
 
     foreach (string line in robotLines)
     {
