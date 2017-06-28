@@ -20,7 +20,7 @@ public void getRobots()
     try
     {
         Stream data = wClient.OpenRead(url);
-        StreamReader read = new StreamReader(data);
+        StreamReader read = new StreamReader(data);   // defining new stream reader //
         string[] lines = new string[] { read.ReadToEnd() };
 
         foreach (string line in lines)
