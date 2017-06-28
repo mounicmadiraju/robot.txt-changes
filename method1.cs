@@ -28,7 +28,7 @@ public void getRobots()
             textBox1.AppendText(line + System.Environment.NewLine);
         }
     }
-    catch (WebException ex)
+    catch (WebException ex)  // defining exception for catch
     {
         MessageBox.Show(ex.Message, null, MessageBoxButtons.OK);
     }
