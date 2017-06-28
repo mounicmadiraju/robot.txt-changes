@@ -33,5 +33,5 @@ public void getRobots()
         robotStringBuilder.Append(Environment.NewLine);
     }
 
-    textbox1.Text = robotStringBuilder.ToString();
+    textbox1.Text = robotStringBuilder.ToString();  // returning value to string
 }
