@@ -11,7 +11,7 @@ using System.Net;
 using System.Collections.Generic;
 
 namespace ContentExtractor
-// Method 1 starts from here //
+
 public void getRobots()
 {
     WebClient wClient = new WebClient();
